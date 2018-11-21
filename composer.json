@@ -6,12 +6,13 @@
   "authors": [
     {
       "name": "kendo",
+      "homepage":"https://www.uckendo.com/",
       "email": "455019825@qq.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "TencentAi\\": "src/Sdk"
+      "TencentAi\\": "src/sdk"
     }
   },
   "minimum-stability": "alpha",
