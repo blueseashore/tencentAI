@@ -54,7 +54,7 @@ class HttpUtil
      * @param array $params
      * @return mixed|string
      */
-    public function doHttpPost(string $url, array $params)
+    public function doHttpPost($url = '', array $params)
     {
         $ch = curl_init();
 

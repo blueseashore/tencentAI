@@ -52,7 +52,7 @@ class Signature
      * @param string $appKey
      * @return string
      */
-    public function getReqSign(array &$params, string $appKey = '')
+    public function getReqSign(array &$params, $appKey = '')
     {
         //数组按key进行升序排序
         ksort($params);
