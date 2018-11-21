@@ -1,0 +1,21 @@
+{
+  "name": "kendo/tencent-ai",
+  "description": "腾讯AI",
+  "type": "library",
+  "license": "仅做交流使用",
+  "authors": [
+    {
+      "name": "kendo",
+      "email": "455019825@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TencentAi\\": "src/Sdk"
+    }
+  },
+  "minimum-stability": "alpha",
+  "require": {
+    "php": ">=7.0"
+  }
+}
